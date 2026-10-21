@@ -8,9 +8,9 @@ const welcomeCardVariants = tv({
   ],
   variants: {
     size: {
-      sm: "p-5",
-      md: "p-6 sm:p-8",
-      lg: "p-8 sm:p-10",
+      sm: "max-w-sm p-5",
+      md: "max-w-2xl p-6 sm:p-8",
+      lg: "max-w-4xl p-8 sm:p-10",
     },
   },
   defaultVariants: {

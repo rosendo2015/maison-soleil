@@ -136,7 +136,6 @@ export function ComponentsPage() {
 
       <section className="mt-6 rounded-2xl border border-stone-200 bg-white p-6 space-y-4">
         <h2 className="font-display text-2xl">StayReceipt</h2>
-
         <StayReceipt />
       </section>
     </main>

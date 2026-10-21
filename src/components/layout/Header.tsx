@@ -77,10 +77,7 @@ export function Header({
               </p>
             </div>
 
-            <div
-              aria-label={`Perfil de ${hostName}`}
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-[#D8B5A4] bg-[#E9D7CA] font-display text-lg text-[#6D4038]"
-            >
+            <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#D8B5A4] bg-[#E9D7CA] font-display text-lg text-[#6D4038]">
               {hostName.charAt(0).toUpperCase()}
             </div>
           </div>
